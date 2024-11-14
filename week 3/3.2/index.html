@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tui</title>
+</head>
+
+<body>
+    <h1>tui boeking</h1>
+    <form action="">
+        <label for="firstname">voornaam </label> <br>
+        <input type="text" name="firstname" pattern="[-zA-Z]">
+  <br>
+        <label for="surname">achternaam</label> <br>
+        <input type="text" name="surname" pattern="[-zA-Z]">
+ <br>
+ <br>
+        <label for="sex">geslacht</label> <br>
+        <input type="radio" name="sex" value="man" checked> man
+        <input type="radio" name="sex" value="vrouw"> vrouw
+    <br>
+    <br>
+        <label for="straat">straat</label><br>
+        <input type="text" name="straat">
+    <br>
+    <br>
+        <label for="huisnummer">huisnummer</label><br>
+        <input class="huisnummer" type="nummer" name="huisnummer" pattern="0-9">
+  <br>
+  <br>
+        <label for="postlecode">postcode</label> <br>
+        <input type="text" name="postlecode">
+ <br>
+ <br>
+        <label for="city">stad</label> <br>
+        <input type="text" name="city" pattern="[-zA-Z]">
+<br>
+<br>
+        <label for="land">land</label> <br>
+        <input type="text" name="land" pattern="[-zA-Z]">
+<br>
+<br>
+        <label for="BSN-nummer">BSN-nummer</label> <br>
+        <input type="nummer" name="BSN-nummer" pattern="[-zA-Z]" maxlength="9"> 
+<br>
+ <br>       
+        <label for="cars">Choose a country:</label>
+  <select name="country" id="country">
+    <option value="duitsland">duitsland</option>
+    <option value="canada">canada</option>
+    <option value="opa island">Opa island</option>
+    <option value="UK">UK</option>
+  </select>
+  <br><br>
+
+  <label for="date">vertrek datum</label>
+  <input type="date" name="date" id="vertrek datum" min="2024-09-18">
+
+ <label for="date">terugkomst datum</label>
+  <input type="date" name="date" id="vertrek datum" min="2024-09-19">
+
+
+ <br><br>
+ <label for="mensen">hoeveel mensen:</label>
+ <select name="mensen" id="mensen">
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="4">4</option>
+ </select>
+<br><br>
+<label for="pets">huisdieren</label> <br>
+<input type="radio" name="pets" value="nee" checked>nee
+<input type="radio" name="pets" value="ja">ja
+<br><br>
+<button type="button">BOEK NU!</button>
+
+    </form>
+
+</body>
+
+</html>
