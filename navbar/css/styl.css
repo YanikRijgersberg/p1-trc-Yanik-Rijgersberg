@@ -6,20 +6,36 @@
 
 
 nav{
-display: flex;
-/* top: 0px;
-left: 0px;
-width: 1400px;
-height: 100px; */
-background-color: burlywood;
-border-radius: 2px;
-border-style: solid;
-border-color: crimson;
-width: 100%;
-justify-content: space-between;
-padding:2rem;
-min-height: 3vh;
+    display: flex;
+  
+    width: 100%;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #1d8d6a;
+    justify-content: space-between;
 
-
-
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 2rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+nav img{
+    width: 50px;
+}
+.cent-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
