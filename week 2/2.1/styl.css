@@ -1,0 +1,19 @@
+body{
+    background-image:url(img/highway.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.toyota{
+    color: beige;
+}
+
+.subText{
+    font-size: 20px;
+    color: white;
+
+}
+.title{
+    font-size: 50px;
+    color: white;
+}

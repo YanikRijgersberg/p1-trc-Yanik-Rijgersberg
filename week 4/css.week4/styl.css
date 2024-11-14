@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+display: flex;
+/* top: 0px;
+left: 0px;
+width: 1400px;
+height: 100px; */
+background-color: burlywood;
+border-radius: 2px;
+border-style: solid;
+border-color: crimson;
+width: 100%;
+justify-content: space-between;
+padding:2rem;
+min-height: 3vh;
+
+
+
+}
